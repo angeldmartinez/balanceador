@@ -31,3 +31,5 @@ cd /etc/apache2/sites-enabled/
 rm 000-default.conf
 
 mv /home/ubuntu/balanceador/000-default.conf /etc/apache2/sites-enabled/
+
+systemctl restart apache2
